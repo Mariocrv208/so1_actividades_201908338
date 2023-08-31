@@ -1,0 +1,9 @@
+[Unit]
+Description=Script de saludo y fecha
+
+[Service]
+Type=simple
+ExecStart=home/mcrv208/Escritorio/USAC/so1_actividades_201908338/Actividad4/saludo_script.sh
+
+[Install]
+WantedBy=multi-user.target
